@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HUD</class>
+ <widget class="QWidget" name="HUD">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1358</width>
+    <height>856</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="displayWindow" native="true">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>1151</width>
+     <height>851</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="speed">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>790</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>630</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Speed :-</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>83</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Points :-</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="points">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Time Left :-</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="timeellipsis">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+  </widget>
+  <widget class="SpeedoMeter" name="speedoMeter" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>659</y>
+     <width>181</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="mapWindow" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>181</width>
+     <height>221</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Player_Name">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SpeedoMeter</class>
+   <extends>QWidget</extends>
+   <header>speedometer.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

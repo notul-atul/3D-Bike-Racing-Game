@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelectTrack</class>
+ <widget class="QDialog" name="SelectTrack">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1292</width>
+    <height>825</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Select Track</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>996</x>
+     <y>790</y>
+     <width>291</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:3px solid white;
+border-radius:15px;</string>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </widget>
+  <widget class="QToolBox" name="toolBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>1261</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>9</number>
+   </property>
+   <widget class="QWidget" name="Track_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 1</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 2</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 3</string>
+    </attribute>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>350</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Track_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 4</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 5</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 6</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 7</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 8</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 9</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="Track_10">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>Track 10</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>790</y>
+     <width>291</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:3px solid white;
+border-radius:15px;</string>
+   </property>
+   <property name="text">
+    <string>&lt;&lt; Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
